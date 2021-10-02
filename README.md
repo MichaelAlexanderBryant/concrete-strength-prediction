@@ -109,6 +109,8 @@ I looked at the distributions of the data and the correlations between variables
 <br/>
 <br/>
 
+<div align="center">
+
 <figure>
 <img src="images/ols-fixed.JPG"><br/>
   <figcaption>Figure 7: Ordinary least squares analysis demonstrates low R-squared scores (nonlinearity, again) and most important features being superplasticizer, water, cement, and age.</figcaption>
@@ -117,14 +119,14 @@ I looked at the distributions of the data and the correlations between variables
   
 </div>
 
-<br/>
-<br/>
   
 
 ### Feature Engineering
 
 I feature engineered using the dataset for future modeling. I made the following changes:
 * Created a feature by dividing `water` by `cement`
+
+<div align="center">
 
 <figure>
 <img src="images/wcratio.jpg"><br/>
@@ -133,9 +135,6 @@ I feature engineered using the dataset for future modeling. I made the following
 <br/><br/>
   
 </div>
-
-<br/>
-<br/>
 
 ### Model Building
 
