@@ -64,7 +64,7 @@ The models I chose and why:
 I looked tuned based on MAE, because it is robust against outliers and I don't need a differentiable function. However, after hyperparameter tuning, I did take into account MSE, RMSE, and R-squared. The best model (based on MAE) was:
 <br/><br/>
 **XGBRegressor**
-* MSE: 19.80 MPa-squared
+* MSE: 19.80 MPa<sup>2</sup>
 * RMSE: 4.59 MPa
 * MAE: 3.05 MPa
 * R-squared: 0.93
