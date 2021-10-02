@@ -10,7 +10,7 @@ This repository is for the analysis and modeling done with the UCI concrete comp
 
 ## Concrete Compressive Strength Dataset
 
-The dataset was gathered from [Kaggle](https://www.kaggle.com/ronitf/heart-disease-uci). The dataset contains 9 variables and 1030 concrete samples.
+The dataset was gathered from [Kaggle](https://www.kaggle.com/maajdl/yeh-concret-data). The dataset contains 9 variables and 1030 concrete samples.
 
 ### Variables
 
