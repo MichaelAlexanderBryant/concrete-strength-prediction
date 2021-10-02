@@ -30,21 +30,112 @@ I hyperparameter tune: LinearRegression, RandomForestRegressor, GradientBoosting
 
 I looked at the distributions of the data and the correlations between variables. Below are some of the highlights:
 
+
 <div align="center">
   
 <figure>
-<img src=""><br/>
-  <figcaption>Figure 1: Correlation heatmap for numerical variables using Pearson correlation coefficient</figcaption>
+<img src="images/csmpa.jpg"><br/>
+  <figcaption>Figure 1: Distribution of the target variable, compressive strength.</figcaption>
 </figure>
 <br/><br/>
   
 </div>
+
+<br/>
+<br/>
+
+<div align="center">
+  
+<figure>
+<img src="images/corrmap.jpg"><br/>
+  <figcaption>Figure 2: Correlation heatmap for numerical variables using Pearson correlation coefficient.</figcaption>
+</figure>
+<br/><br/>
+  
+</div>
+
+<br/>
+<br/>
+
+<div align="center">
+  
+<figure>
+<img src="images/csmpa-cement.jpg"><br/>
+  <figcaption>Figure 3: Compressive strength and cement have the strongest linear relationship according to the correlation heatmap.</figcaption>
+</figure>
+<br/><br/>
+  
+</div>
+
+<br/>
+<br/>
+
+<div align="center">
+  
+<figure>
+<img src="images/pairplot.jpg"><br/>
+  <figcaption>Figure 4: Pairplot demonstrating highly sparse data among some variables which makes a tree-based model a good choice.</figcaption>
+</figure>
+<br/><br/>
+  
+</div>
+
+<br/>
+<br/>
+
+<div align="center">
+  
+<figure>
+<img src="images/mi.jpg"><br/>
+  <figcaption>Figure 5: Mutual information scores (from 0 to 1) shows nonlinearity between predictors and compressive strength.</figcaption>
+</figure>
+<br/><br/>
+  
+</div>
+
+<br/>
+<br/>
+
+<div align="center">
+  
+<figure>
+<img src="images/pca2.jpg"><br/>
+  <figcaption>Figure 6: Explained variance from PCA demonstrates low variance among variables (no visible elbow) and about the same amount of variance contribution per principal component for the first eight components.</figcaption>
+</figure>
+<br/><br/>
+  
+</div>
+
+<br/>
+<br/>
+
+<figure>
+<img src="images/ols-fixed.JPG"><br/>
+  <figcaption>Figure 7: Ordinary least squares analysis demonstrates low R-squared scores (nonlinearity, again) and most important features being superplasticizer, water, cement, and age.</figcaption>
+</figure>
+<br/><br/>
+  
+</div>
+
+<br/>
+<br/>
   
 
 ### Feature Engineering
 
 I feature engineered using the dataset for future modeling. I made the following changes:
 * Created a feature by dividing `water` by `cement`
+
+<figure>
+<img src="images/wcratio.jpg"><br/>
+  <figcaption>Figure 8: Compressive strength and water:cement ratio demonstrates inverse relationship (1/x) between the two variables.</figcaption>
+</figure>
+<br/><br/>
+  
+</div>
+
+<br/>
+<br/>
 
 ### Model Building
 
@@ -75,8 +166,8 @@ I looked tuned based on MAE, because it is robust against outliers and I don't n
 <div align="center">
   
 <figure>
-<img src=""><br/>
-  <figcaption>Figure 5: Permutation importance for XGBRegressor.</figcaption>
+<img src="permimp.jpg"><br/>
+  <figcaption>Figure 9: Permutation importance for XGBRegressor showing age and water:cement ratio to be most important.</figcaption>
 </figure>
 <br/><br/>
   
