@@ -188,4 +188,4 @@ I built a [Heroku web app](https://predict-compressive-strength.herokuapp.com/) 
 
 ## Resources
 
-1. [Kaggle: Concrete Compressive Strength](https://www.kaggle.com/maajdl/yeh-concret-data)
+1. [Kaggle: Concrete compressive strength dataset](https://www.kaggle.com/maajdl/yeh-concret-data)
