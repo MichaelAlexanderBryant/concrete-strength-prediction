@@ -74,7 +74,7 @@ I looked at the distributions of the data and the correlations between variables
   
 <figure>
 <img src="images/pairplot.jpg"><br/>
-  <figcaption>Figure 4: Pairplot demonstrating highly sparse data among some variables which makes a tree-based model a good choice.</figcaption>
+  <figcaption>Figure 4: Pairplot with compressive strength hue demonstrating highly sparse data among some variables which makes a tree-based model a good choice.</figcaption>
 </figure>
 <br/><br/>
   
