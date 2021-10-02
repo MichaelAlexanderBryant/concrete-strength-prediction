@@ -165,7 +165,7 @@ I looked tuned based on MAE, because it is robust against outliers and I don't n
 <div align="center">
   
 <figure>
-<img src="permimp.jpg"><br/>
+<img src="images/permimp.jpg"><br/>
   <figcaption>Figure 9: Permutation importance for XGBRegressor showing age and water:cement ratio to be most important.</figcaption>
 </figure>
 <br/><br/>
