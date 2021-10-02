@@ -179,7 +179,7 @@ I built a [Heroku web app](https://predict-compressive-strength.herokuapp.com/) 
 <div align="center">
   
 <figure>
-<img src=""><br/>
+<img src="images/concrete-frontend.gif"><br/>
   <figcaption>Figure 8: Front-end of application using XGBRegressor.</figcaption>
 </figure>
 <br/><br/>
