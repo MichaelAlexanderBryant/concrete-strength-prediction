@@ -1,4 +1,4 @@
-# Project Overview for Concrete Compressive Strength App
+# Concrete Compressive Strength Prediction
 
 This repository is for the analysis and modeling done with the UCI concrete compressive strength dataset. Below you will find an overview of the data, code, and results. The goal was to create an end-to-end project where I create a pipeline to perform an exploratory data analysis (EDA), feature engineer, apply machine learning algorithms to predict concrete compressive strength, and create a [deployed application with a front-end](https://predict-compressive-strength.herokuapp.com/) to productionize the best performing model. The repo with the Heroku files for the app can be found [here](https://github.com/michaelbryantds/concrete-strength-pred-app).
 
