@@ -1,6 +1,6 @@
 # Concrete Compressive Strength Prediction
 
-This repository is for the analysis and modeling done with the UCI concrete compressive strength dataset. Below you will find an overview of the data, code, and results. The goal was to create an end-to-end project where I create a pipeline to perform an exploratory data analysis (EDA), feature engineer, apply machine learning algorithms to predict concrete compressive strength, and create a [deployed application with a front-end](https://predict-compressive-strength.herokuapp.com/) to productionize the best performing model. The repo with the Heroku files for the app can be found [here](https://github.com/michaelbryantds/concrete-strength-pred-app).
+This repository is for the analysis and modeling done with the UCI concrete compressive strength dataset. Below you will find an overview of the data, code, and results. The goal was to create an end-to-end project where I create a pipeline to perform an exploratory data analysis (EDA), feature engineer, apply machine learning algorithms to predict concrete compressive strength, and create a deployed application with a front-end to productionize the best performing model. The repo with the app files can be found [here](https://github.com/michaelbryantds/concrete-strength-pred-app).
 
 ### Code Used 
 
@@ -174,7 +174,7 @@ I looked tuned based on MAE, because it is robust against outliers and I don't n
 
 ## Productionization
 
-I built a [Heroku web app](https://predict-compressive-strength.herokuapp.com/) with a front-end which takes concrete ingredients and age as input from the user and outputs a concrete compressive strength prediction using the XGBRegressor model. More information on this can be found at it's [repo](https://github.com/michaelbryantds/concrete-strength-pred-app).
+I built a web app with a front-end which takes concrete ingredients and age as input from the user and outputs a concrete compressive strength prediction using the XGBRegressor model. More information on this can be found at it's [repo](https://github.com/michaelbryantds/concrete-strength-pred-app).
 
 <div align="center">
   
